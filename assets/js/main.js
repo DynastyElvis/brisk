@@ -326,9 +326,9 @@
         function hoverUnderLineEffect(){
             let hoverEffect = $(".hover-underline");
             for(let i=0; i<hoverEffect.length; i++){
-                if(hoverEffect.eq(i).find(".link-text").length){
-                    hoverEffect.eq(i).prepend(`<span class="link-text-hidden">${hoverEffect.eq(i).find(".link-text").html()}</span>`)
-                }
+                // if(hoverEffect.eq(i).find(".link-text").length){
+                //     hoverEffect.eq(i).prepend(`<span class="link-text-hidden">${hoverEffect.eq(i).find(".link-text").html()}</span>`)
+                // }
             }
         }
         hoverUnderLineEffect();
