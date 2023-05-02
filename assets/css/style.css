@@ -41,7 +41,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: var(--main-color);
+    color: rgb(18, 18, 100);
     background-color: var(--third-color);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -1301,7 +1301,7 @@ body.dark-screen .normalCursor, .cursor-dark {
 }
 .form-checkbox-label {
     font-size: 16px;
-    border: 2px solid #000;
+    border: 2px solid rgb(228, 109, 40);
     border-radius: 15px;
     padding: 15px 20px;
     font-weight: 500;
@@ -1310,7 +1310,7 @@ body.dark-screen .normalCursor, .cursor-dark {
     transition: .2s;
 }
 .form-checkbox:checked + .form-checkbox-label {
-    background: #000000;
+    background: rgb(228, 109, 40);
     color: #fff;
 }
 .form-checkbox {
@@ -1328,7 +1328,7 @@ body.dark-screen .normalCursor, .cursor-dark {
     color: #000000;
     font-size: 22px;
     border: 0;
-    border-bottom: 2px solid #000000;
+    border-bottom: 2px solid #f88e37;
     min-height: 68px;
     padding: 0;
 }

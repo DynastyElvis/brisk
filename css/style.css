@@ -176,16 +176,6 @@ right:0; width:200px;}
     font-size: 16px;
     font-weight: 300;
 }
- /* footer  */
-footer {
-    padding: 35px 0 35px;
-    background-color: #3e3e4b;
-}
-footer h4{color:#fff; font-size:22px; font-weight:300; margin:20px auto 30px;}
-footer p, footer a{color:#fff; font-size:16px; text-decoration:none; display:block; }
-footer p a{ display:inline-block; }
-footer ul li a{font-size:16px; text-decoration:none; color:#ee6b2c;}
-footer ul li{list-style:none;}
 
 
 /* footer */
