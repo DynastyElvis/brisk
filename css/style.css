@@ -216,6 +216,7 @@ right:0; width:200px;}
 /* .service_box  p{ font-size:12px; } */
 .service_box.text-end { align-items: flex-end;}
 
+
 .service_box {
 	position:relative;
     padding: 35px;
