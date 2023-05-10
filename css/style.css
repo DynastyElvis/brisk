@@ -159,7 +159,7 @@ right:0; width:200px;}
 	height:100%;
 }
 .Img-box figure {
-    height: 160px;
+    height: 190px;
     overflow: hidden;
 	margin:0;
 }
@@ -337,7 +337,7 @@ right:0; width:200px;}
 
 .scrollable {
     overflow-y: scroll;
-    height: 300px;
+    height: 310px;
   }
   
   .grid {
