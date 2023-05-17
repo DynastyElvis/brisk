@@ -90,6 +90,17 @@ article {
     align-items: center;
     display: flex;
 }
+
+.btn-outlined2 {
+    font-size: 16px;
+    color: rgb(20, 10, 114);
+    padding: 13px 22px;
+    border-radius: 15px;
+    font-weight: 500;
+    align-items: center;
+    display: flex;
+}
+
 .btn-light {
     border-color: var(--third-color);
     color: var(--third-color);
