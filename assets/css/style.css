@@ -1273,6 +1273,7 @@ body.dark-screen .normalCursor, .cursor-dark {
     font-weight: 500;
     margin-bottom: 50px;
     width: 80%;
+    color: #0f2764;
 }
 .team-item-author h4 {
     font-size: 22px;
@@ -1281,7 +1282,7 @@ body.dark-screen .normalCursor, .cursor-dark {
 }
 .team-item-author p {
     font-size: 14px;
-    color: #888888;
+    color: #2b0404;
     font-weight: 500;
     margin: 0;
 }
