@@ -1307,16 +1307,16 @@ body.dark-screen .normalCursor, .cursor-dark {
 }
 .form-category {
     display: flex;
-    gap: 30px;
+    gap: 10px;
     margin-bottom: 40px;
 }
 .form-checkbox-label {
     font-size: 16px;
     border: 2px solid rgb(228, 109, 40);
-    border-radius: 15px;
+    border-radius: 10px;
     padding: 15px 20px;
     font-weight: 500;
-    min-width: 280px;
+    min-width: 250px;
     text-align: center;
     transition: .2s;
 }
