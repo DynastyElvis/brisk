@@ -222,34 +222,117 @@
                     </div>
                 </div>
             </section>
-            <!-- brisk -->
-            <section class="team-main section-space">
-                <div class="container-fluid space">
-                    <div class="team-main-container">
-                        <div class="team-main-img">
-                            <img src="https://images.unsplash.com/photo-1518893494013-481c1d8ed3fd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM2fHxtYXJrZXRpbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="Team">
-                            <div class="team-main-author">
-                                <h3>Brisk Marketing</h3>
-                                <p>Growing Your Business</p>
-                                <img src="assets/images/team/signature.png" alt="Signature">
-                            </div>
-                        </div>
-                        <div class="team-main-text">
-                                <div>
-                                    <h2>
-                                    <a href="agency.html" class="hover-underline reverse" style="color: rgb(16, 23, 131);">
-                                        <span class="link-text" style="color: rgb(202, 106, 51);">We help</span>
-                                    </a>
-                                    <span class="primary">companies</span>
-                                </h2>
+                        <!-- brisk -->
+                        <section class="team-main section-space">
+                            <div class="container-fluid space">
+                                <div class="team-main-container">
+                                    <div class="team-main-img">
+                                        <img src="https://images.unsplash.com/photo-1518893494013-481c1d8ed3fd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM2fHxtYXJrZXRpbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="Team">
+                                        <div class="team-main-author">
+                                            <h3>Brisk Marketing</h3>
+                                            <p>Growing Your Business</p>
+                                            <img src="assets/images/team/signature.png" alt="Signature">
+                                        </div>
+                                    </div>
+                                    <div class="team-main-text">
+                                      <div>
+                                          <h2>
+                                            <a href="index.html" class="" style="color: rgb(16, 23, 131);">
+                                              <span class="" style="color: rgb(202, 106, 51);">We help</span>
+                                            </a>
+                                              <span class="primary">Companies</span>
+                                            </h2>
+                                            </div>
+                                            <div><h2><span class="primary">& Brands beneft from</span>
+                                              
+                                              
+                                            <style>
+                                            #dynamicText {
+                                                display: inline-block;
+                                                position: relative;
+                                            }
+            
+                                            #cursor {
+                                                display: inline-block;
+                                                position: relative;
+                                                animation: cursorAnimation 0.5s infinite;
+                                            }
+            
+                                            @keyframes cursorAnimation {
+                                                0%, 20% {
+                                                    width: 0;
+                                                    opacity: 0;
+                                                }
+                                                25%, 95% {
+                                                    width: auto;
+                                                    opacity: 1;
+                                                }
+                                                100% {
+                                                    width: auto;
+                                                    opacity: 0;
+                                                }
+                                            }
+                                            </style>
+                                            <h3 class="elementor-headline elementor-headline-animation-type-clip" style="font-size: 43px; color: gray;">
+                                                <span class="elementor-headline-dynamic-wrapper elementor-headline-text-wrapper">
+                                                    <span id="dynamicText"></span>
+                                                    <span id="cursor">|</span>
+                                                </span>
+                                            </h3>
+            
+                                            <script>
+                                            var words = ["Digital Technologies", "Content & Social Media Marketing", "Search Engine Optimization-SEO", "Conversion Rate Optimization-CRO", "Customer Relationship Management", "Offline Marketing", "Influencer & Email Marketing"];
+                                            var currentIndex = 0;
+                                            var dynamicText = document.getElementById("dynamicText");
+                                            var cursor = document.getElementById("cursor");
+            
+                                            function flipText() {
+                                                var currentWord = words[currentIndex];
+            
+                                                dynamicText.textContent = "";
+            
+                                                var i = 0;
+                                                var typeInterval = setInterval(function() {
+                                                    dynamicText.textContent += currentWord[i];
+            
+                                                    i++;
+                                                    if (i >= currentWord.length) {
+                                                        clearInterval(typeInterval);
+                                                        setTimeout(function() {
+                                                            eraseText();
+                                                        }, 800);
+                                                    }
+                                                }, 50);
+            
+                                                currentIndex++;
+                                                if (currentIndex >= words.length) {
+                                                    currentIndex = 0;
+                                                }
+                                            }
+            
+                                            function eraseText() {
+                                                var currentText = dynamicText.textContent;
+            
+                                                var i = currentText.length - 1;
+                                                var eraseInterval = setInterval(function() {
+                                                    dynamicText.textContent = currentText.substring(0, i);
+            
+                                                    i--;
+                                                    if (i < 0) {
+                                                        clearInterval(eraseInterval);
+                                                        setTimeout(function() {
+                                                            flipText();
+                                                        }, 800);
+                                                    }
+                                                }, 50);
+                                            }
+            
+                                            flipText();
+                                            </script>
+                                    </div>
                                 </div>
-                                <div><h2><span class="primary">beneft</span><span class="secondary">from digital</span></h2></div>
-                                <div><h2><span class="secondary">technologies</span></h2></div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- brisk End -->
+                            </div>
+                        </section>
         </div>
   
 
