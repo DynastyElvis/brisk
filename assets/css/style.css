@@ -252,9 +252,10 @@ blockquote span {
 }
 /*== Text animations ==*/
 .hover-underline {
-    position: relative;
-    overflow: hidden;
+    position:relative;
     line-height: normal;
+    text-decoration: underline; /* Keep the underline style on hover */
+
 }
 .link-text-hidden {
     transform: translateY(110%);
@@ -1203,6 +1204,8 @@ body.dark-screen .normalCursor, .cursor-dark {
 .team-main-img img {
     border-radius: 15px;
     max-width: 280px;
+    margin-left: 300px;
+    margin-right: 2px;
 }
 .team-main-author {
     margin-top: 30px;
@@ -1211,6 +1214,7 @@ body.dark-screen .normalCursor, .cursor-dark {
 .team-main-author h3 {
     font-size: 22px;
     margin-bottom: 7px;
+    margin-left: 300px;
 }
 .team-main-author p {
     font-size: 14px;
@@ -1218,6 +1222,7 @@ body.dark-screen .normalCursor, .cursor-dark {
     font-weight: 500;
     margin: 0;
     float: left;
+    margin-left: 300px;
 }
 .team-main-author img {
     margin-top: -7px;
@@ -1225,20 +1230,21 @@ body.dark-screen .normalCursor, .cursor-dark {
 .team-main-container {
     display: flex;
     align-items: flex-end;
-    justify-content: center;
+    justify-content: ;
 }
 .team-main-text h2 {
     font-size: 75px;
     font-weight: 400;
+    margin-left: 100;
 }
 .team-main-img {
     display: flex;
     flex-direction: column;
-    margin-right: clamp(20px, 9vw, 150px);
+    margin-right: 2px;
 }
 .team-main-text h2 {
     display: flex;
-    gap: 30px;
+    gap: 10px;
 }
 .team-main-text h2 .primary {
     color: #000;
