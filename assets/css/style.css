@@ -252,7 +252,7 @@ blockquote span {
 }
 /*== Text animations ==*/
 .hover-underline {
-    position:relative;
+    position:sticky;
     line-height: normal;
     text-decoration: underline; /* Keep the underline style on hover */
 
