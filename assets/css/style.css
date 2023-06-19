@@ -1204,7 +1204,7 @@ body.dark-screen .normalCursor, .cursor-dark {
 .team-main-img img {
     border-radius: 15px;
     max-width: 280px;
-    margin-left: 300px;
+    margin-left: 200px;
     margin-right: 2px;
 }
 .team-main-author {
@@ -1241,6 +1241,7 @@ body.dark-screen .normalCursor, .cursor-dark {
     display: flex;
     flex-direction: column;
     margin-right: 2px;
+    /* margin-left: 200px; */
 }
 .team-main-text h2 {
     display: flex;

@@ -54,6 +54,8 @@
 	}
 	.team-main-img img {
 		max-width: 240px;
+		margin-left: 200px;
+
 	}
 	.team-item .text > p {
 		font-size: 26px;
