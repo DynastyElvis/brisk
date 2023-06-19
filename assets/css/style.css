@@ -1230,7 +1230,8 @@ body.dark-screen .normalCursor, .cursor-dark {
 .team-main-container {
     display: flex;
     align-items: flex-end;
-    justify-content: ;
+    justify-content: center;
+    width: auto;
 }
 .team-main-text h2 {
     font-size: 75px;
