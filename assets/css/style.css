@@ -1240,7 +1240,7 @@ body.dark-screen .normalCursor, .cursor-dark {
         flex-direction: row;
         align-items: flex-end;
         justify-content: space-between;
-        text-align: center;
+        text-align: left;
     }
     
 .team-main-text h2 {
