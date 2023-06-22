@@ -1232,7 +1232,17 @@ body.dark-screen .normalCursor, .cursor-dark {
     align-items: flex-end;
     justify-content: center;
     width: auto;
+    
 }
+
+@media (min-width: 768px) {
+    .team-main-container {
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-between;
+        text-align: center;
+    }
+    
 .team-main-text h2 {
     font-size: 75px;
     font-weight: 400;
